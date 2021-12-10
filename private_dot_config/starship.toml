@@ -1,0 +1,17 @@
+format="""
+$all$directory
+$character
+"""
+
+right_format = "$time"
+
+add_newline = true
+
+[character]
+success_symbol = "[➜](bold green)"
+error_symbol = "[✖](bold red) "
+
+[time]
+time_format = "%T"
+disabled = false
+
