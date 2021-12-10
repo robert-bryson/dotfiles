@@ -1,3 +1,3 @@
 function initvim
-    chezmoi edit ~/.config/nvim/init.vim
+    chezmoi edit /Users/rob/.local/share/chezmoi/private_dot_config/nvim/init.vim
 end
