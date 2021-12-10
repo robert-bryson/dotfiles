@@ -1,5 +1,3 @@
-# docs at https://starship.rs/config/
-
 format="""
 $all$directory
 $character

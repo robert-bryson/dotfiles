@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR STARSHIP_CONFIG:/Users/rob/\x2econfig/starship\x2etoml
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/rob/\x2elocal/share/z/data
