@@ -1,3 +1,3 @@
 function vim --wraps='vim'
-    nvim $argv
+    vim $argv
 end
