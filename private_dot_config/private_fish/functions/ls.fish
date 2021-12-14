@@ -1,3 +1,3 @@
 function ls
-    exa --icons --classify --group-directories-first $argv
+    exa --icons --classify --group-directories-first --all $argv
 end
