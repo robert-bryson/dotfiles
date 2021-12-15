@@ -1,9 +1,5 @@
-# Load rbenv automatically
-# https://github.com/rbenv/rbenv#using-package-managers
-status --is-interactive; and rbenv init - fish | source
-
-
 if status is-interactive
-    # Commands to run in interactive sessions can go here
+    # Commands to run in interactive sessions
+    rbenv init - fish | source
     starship init fish | source
 end
