@@ -2,6 +2,10 @@
 " Basic config
 "
 
+if !exists("g:syntax_on")
+    syntax enable
+endif
+
 set expandtab
 set shiftwidth=4
 set hlsearch
@@ -46,6 +50,8 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 call plug#begin(data_dir . '/plugins')
 
 " source ~/.config/nvim/plugins/abolish.vim
+
+" TODO install https://vimawesome.com/plugin/vim-gitgutter
 
 call plug#end()
 
