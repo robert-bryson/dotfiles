@@ -55,8 +55,9 @@ source ~/.config/vim/plugins/vim-nightfly-guicolors.vim
 
 call plug#end()
 
+colorscheme nightfly
 
-" 
+"
 " Some good vimrc links
 "
 
