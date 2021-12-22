@@ -4,12 +4,20 @@ function update --description 'Updates, used before upgrade'
     brew update
     brew outdated
     brew upgrade
+    brew upgrade --greedy
 
     echo
     echo 'updating tldr cache'
     tldr --update
 
-    echo 'fetching git repo updates'
-    cd /Users/rob/work/repos
+    echo
+    echo 'updating vim plug'
+    vim +'PlugUpgrade --sync' +qa
+    echo 'updating vim plugins'
+    vim +'PlugInstall --sync' +qa
+    vim +'PlugUpdate --sync' +qa
+
+    #echo 'fetching git repo updates'
+    #cd /Users/rob/work/repos
     #for 
 end
