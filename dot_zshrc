@@ -134,3 +134,5 @@ source /opt/homebrew/etc/profile.d/z.sh
 
 # THIS NEEDS TO BE AT THE END
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
