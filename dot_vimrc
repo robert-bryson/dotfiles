@@ -53,6 +53,7 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 call plug#begin(data_dir . '/plugins')
 
 " source ~/.config/nvim/plugins/abolish.vim
+source ~/.config/vim/plugins/airblade/vim-gitgutter.vim
 source ~/.config/vim/plugins/tpope/vim-fugitive.vim
 source ~/.config/vim/plugins/vim-nightfly-guicolors.vim
 source ~/.config/vim/plugins/vim-moonfly-statusline.vim
