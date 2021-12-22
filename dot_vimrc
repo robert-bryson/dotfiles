@@ -24,7 +24,7 @@ set sidescrolloff=8
 
 "
 " Plugin like things:
-" 
+"
 
 " run chezmoi apply on dotfile save
 autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path "%"
@@ -34,6 +34,9 @@ autocmd Filetype markdown setlocal spell textwidth=80
 
 " Allow gf to open non-existent files
 map gf :edit <cfile><cr>
+
+set wildmenu
+set wildmode=longest:full,full
 
 
 "
@@ -63,3 +66,4 @@ colorscheme nightfly
 "
 
 " https://github.com/jessarcher/dotfiles/blob/master/nvim/init.vim
+" https://github.com/tpope/tpope/blob/master/.vimrc
