@@ -1,6 +1,7 @@
 # dotfiles
 
-My dotfiles, managed by [chezmoi](https://github.com/twpayne/chezmoi). 
+My dotfiles, managed by [chezmoi](https://github.com/twpayne/chezmoi). Note that
+they are my own dot files, so there maybe certain things with my user/id. 
 
 ## init
 
