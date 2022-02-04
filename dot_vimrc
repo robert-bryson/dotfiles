@@ -61,9 +61,8 @@ source ~/.config/vim/plugins/hashivim/vim-terraform.vim
 source ~/.config/vim/plugins/tpope/vim-fugitive.vim
 
 " color schemes
-source ~/.config/vim/plugins/vim-nightfly-guicolors.vim
-source ~/.config/vim/plugins/vim-moonfly-statusline.vim
-" TODO install https://vimawesome.com/plugin/vim-gitgutter
+source ~/.config/vim/color_schemes/vim-nightfly-guicolors.vim
+source ~/.config/vim/color_schemes/vim-moonfly-statusline.vim
 
 call plug#end()
 
