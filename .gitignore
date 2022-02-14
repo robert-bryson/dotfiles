@@ -1,0 +1,5 @@
+# probably should figure out a better way of secrets management
+private_dot_config/gh/private_hosts.yml
+
+# not sure what to do for wsl stuff
+private_dot_config/wslu/*
