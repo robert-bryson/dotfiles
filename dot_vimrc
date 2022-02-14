@@ -57,6 +57,7 @@ call plug#begin(data_dir . '/plugins')
 
 " source ~/.config/nvim/plugins/abolish.vim
 source ~/.config/vim/plugins/airblade/vim-gitgutter.vim
+source ~/.config/vim/plugins/chr4/nginx.vim
 source ~/.config/vim/plugins/hashivim/vim-terraform.vim
 source ~/.config/vim/plugins/tpope/vim-fugitive.vim
 
