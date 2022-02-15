@@ -4,6 +4,10 @@ function update --description 'Updates, used before upgrade'
     chezmoi update --verbose
 
     echo
+    echo 'updating fisher..'
+    fisher update
+
+    echo
     echo 'updating brew..'
     brew update
     brew outdated
