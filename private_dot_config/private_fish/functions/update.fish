@@ -1,5 +1,9 @@
 function update --description 'Updates, used before upgrade'
     echo
+    echo 'updating chezmoi..
+    chezmoi update --verbose
+
+    echo
     echo 'updating brew..'
     brew update
     brew outdated
