@@ -24,6 +24,12 @@ set sidescrolloff=8
 set nowrap
 set formatoptions-=t
 
+" turns off visual bell and bell sounds
+set belloff=all
+
+set noswapfile
+set undodir=~/.vim/undodir
+set undofile
 
 "
 " Plugin like things:
