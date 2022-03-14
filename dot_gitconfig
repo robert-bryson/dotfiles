@@ -1,15 +1,31 @@
+[core]
+    pager = delta
+
 [filter "lfs"]
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+
 [user]
-	name = robert-bryson
-	email = robert.bryson@gsa.gov
+    name = robert-bryson
+    email = robert.bryson@gsa.gov
+
 [init]
-	defaultBranch = main
+    defaultBranch = main
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+
 [delta]
     features = decorations
+    navigate = true # n & N to move between diff sections
 
 [delta "interactive"]
     keep-plus-minus-markers = false
@@ -22,9 +38,10 @@
     hunk-header-file-style = red
     hunk-header-line-number-style = "#067a00"
     hunk-header-style = file line-number syntax
+
 [credential "https://github.com"]
-	helper = 
-	helper = !gh auth git-credential
+    helper = 
+    helper = !gh auth git-credential
 [credential "https://gist.github.com"]
-	helper = 
-	helper = !gh auth git-credential
+    helper = 
+    helper = !gh auth git-credential
