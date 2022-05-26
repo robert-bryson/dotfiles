@@ -71,6 +71,7 @@ source ~/.config/vim/plugins/airblade/vim-gitgutter.vim
 source ~/.config/vim/plugins/chr4/nginx.vim
 source ~/.config/vim/plugins/dag/vim-fish.vim
 source ~/.config/vim/plugins/hashivim/vim-terraform.vim
+source ~/.config/vim/plugins/rust-lang/rust.vim
 source ~/.config/vim/plugins/tpope/vim-fugitive.vim
 
 " color schemes
