@@ -2,7 +2,9 @@
   "dependencies": {
     "coc-json": ">=1.4.2",
     "coc-markdownlint": ">=1.12.4",
+    "coc-pyright": ">=1.1.252",
     "coc-rust-analyzer": ">=0.62.1",
+    "coc-sh": ">=0.6.1",
     "coc-yaml": ">=1.7.5"
   }
 }
