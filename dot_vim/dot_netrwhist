@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/Users/rob/work/repos/data.gov/bin'
+let g:netrw_dirhist_3='/Users/rob/work/repos/inventory-app/solr'
+let g:netrw_dirhist_2='/Users/rob/work/repos/inventory-app'
+let g:netrw_dirhist_1='/Users/rob/.local/share/chezmoi'
