@@ -14,18 +14,23 @@ function update --description 'Updates, used before upgrade'
     brew upgrade
     brew upgrade --greedy
 
-    echo 'updating tldr cache'
+    echo 'updating tldr cache..'
     tldr --update
 
-    echo 'updating vim plug'
+    echo 'updating vim plug..'
     vim +'PlugUpgrade --sync' +qa
     echo 'updating vim plugins'
     vim +'PlugInstall --sync' +qa
     vim +'PlugUpdate --sync' +qa
 
+    echo 'updating coc.vim..'
+    # from https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#update-extensions
+    vim -c 'CocUpdateSync|q'
+
+    # TODO
     #echo 'fetching git repo updates'
     #cd /Users/rob/work/repos
-    #for 
+    #for repo in repos_to_keep_updated
 
     echo 'Checking OS specfic things..'
     switch (uname)
@@ -35,6 +40,8 @@ function update --description 'Updates, used before upgrade'
             sudo apt upgrade --yes
         case Darwin
             echo 'Updating macos things..'
+            # TODO
+            echo 'Looks like you havent done anything here?'
         case '*'
             echo 'Which os are you?'
     end
