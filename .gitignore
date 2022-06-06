@@ -6,3 +6,5 @@ private_dot_config/wslu/*
 
 # need to create ~/.vim/undodir, but ignore contents
 dot_vim/undodir/*
+
+private_dot_config/coc/extensions/node_modules/*

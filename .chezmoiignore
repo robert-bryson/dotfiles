@@ -1,4 +1,5 @@
 chezmoistate.boltdb
 .config/chezmoi/chezmoistate.boltdb
 .git
+private_dot_config/coc/extensions/node_modules/*
 
