@@ -47,6 +47,9 @@ call plug#begin(data_dir . '/plugins')
 
 " source ~/.config/nvim/plugins/abolish.vim
 
+" enabled theme
+source ~/.config/nvim/themes/shatur/neovim-ayu.vim
+
 call plug#end()
 
 
