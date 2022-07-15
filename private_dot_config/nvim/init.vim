@@ -30,13 +30,16 @@ call plug#begin(data_dir . '/plugins')
 
 " source ~/.config/nvim/plugins/abolish.vim
 source ~/.config/nvim/plugins/airblade-vim-gitgutter.vim
+source ~/.config/nvim/plugins/ap-vim-css-color.vim
 source ~/.config/nvim/plugins/chr4-nginx.vim
 source ~/.config/nvim/plugins/dag-vim-fish.vim
 source ~/.config/nvim/plugins/hashivim-vim-terraform.vim
 source ~/.config/nvim/plugins/itchyny-lightline.vim
 source ~/.config/nvim/plugins/neoclide-coc.vim
 source ~/.config/nvim/plugins/rust-lang-rust.vim
+source ~/.config/nvim/plugins/tpope-vim-commentary.vim
 source ~/.config/nvim/plugins/tpope-vim-fugitive.vim
+source ~/.config/nvim/plugins/tpope-vim-surround.vim
 
 " themes
 source ~/.config/nvim/themes/shatur/neovim-ayu.vim
