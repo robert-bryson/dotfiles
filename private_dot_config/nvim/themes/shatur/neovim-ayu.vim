@@ -1,5 +1,5 @@
 Plug 'Shatur/neovim-ayu'
 
-PlugInstall
+"PlugInstall
 " require('ayu').colorscheme()
-colorscheme ayu-mirage
+"colorscheme ayu-mirage
