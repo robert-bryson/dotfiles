@@ -18,10 +18,15 @@ function update --description 'Updates, used before upgrade'
     tldr --update
 
     echo 'updating vim plug..'
-    vim +'PlugUpgrade --sync' +qa
+    vim -es -u vimrc -i NONE -c "PlugUpgrade" -c "qa"
     echo 'updating vim plugins'
-    vim +'PlugInstall --sync' +qa
-    vim +'PlugUpdate --sync' +qa
+    vim -es -u vimrc -i NONE -c "PlugInstall" -c "qa"
+    vim -es -u vimrc -i NONE -c "PlugUpdate" -c "qa"
+    echo 'updating neovim plug..'
+    nvim -es -u init.vim -i NONE -c "PlugUpgrade" -c "qa"
+    echo 'updating neovim plugins..'
+    nvim -es -u init.vim -i NONE -c "PlugInstall" -c "qa"
+    nvim -es -u init.vim -i NONE -c "PlugUpdate" -c "qa"
 
     echo 'updating coc.vim..'
     # from https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#update-extensions
