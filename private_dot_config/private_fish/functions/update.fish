@@ -1,4 +1,5 @@
 function update --description 'Updates, used before upgrade'
+    # TODO - add this as a flag like --test or something
     # link bash's set -x
     set fish_trace 1
 
@@ -31,6 +32,10 @@ function update --description 'Updates, used before upgrade'
     echo 'updating coc.vim..'
     # from https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#update-extensions
     vim -c 'CocUpdateSync|q'
+
+    #TODO - docker image/container clean up
+
+    #TODO - npm global packages install/update
 
     # TODO
     #echo 'fetching git repo updates'
