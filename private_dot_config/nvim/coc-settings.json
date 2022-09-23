@@ -1,10 +1,13 @@
 {
+"yaml.enable": true,
+"yaml.format.enable": true,
 "languageserver": {
   "dockerfile": {
     "command": "docker-langserver",
     "filetypes": ["dockerfile"],
     "args": ["--stdio"]
   }
-}
+},
+"docker.enable": true
 }
 

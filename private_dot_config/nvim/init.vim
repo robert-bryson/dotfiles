@@ -40,6 +40,7 @@ source ~/.config/nvim/plugins/rust-lang-rust.vim
 source ~/.config/nvim/plugins/tpope-vim-commentary.vim
 source ~/.config/nvim/plugins/tpope-vim-fugitive.vim
 source ~/.config/nvim/plugins/tpope-vim-surround.vim
+source ~/.config/nvim/plugins/tpope-vim-vinegar.vim
 
 " themes
 source ~/.config/nvim/themes/shatur/neovim-ayu.vim
