@@ -1,7 +1,7 @@
 function update --description 'Updates, used before upgrade'
     # TODO - add this as a flag like --test or something
     # link bash's set -x
-    set fish_trace 1
+    #set fish_trace 1
 
     echo 'updating chezmoi..'
     chezmoi update --verbose
@@ -48,6 +48,7 @@ function update --description 'Updates, used before upgrade'
             echo 'Updating linuxy things..'
             sudo apt update
             sudo apt upgrade --yes
+            sudo apt autoremove --yes
         case Darwin
             echo 'Updating macos things..'
             # TODO
