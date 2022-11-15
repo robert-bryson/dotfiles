@@ -2,11 +2,13 @@
   "dependencies": {
     "coc-cmake": ">=0.2.1",
     "coc-docker": ">=0.5.0",
-    "coc-json": ">=1.6.1",
+    "coc-json": ">=1.7.0",
     "coc-markdownlint": ">=1.26.0",
-    "coc-pyright": ">=1.1.272",
-    "coc-rust-analyzer": ">=0.68.3",
+    "coc-pyright": ">=1.1.275",
+    "coc-rust-analyzer": ">=0.69.4",
     "coc-sh": ">=0.7.0",
-    "coc-yaml": ">=1.8.0"
-  }
+    "coc-yaml": ">=1.9.0"
+  },
+  "disabled": [],
+  "locked": []
 }
