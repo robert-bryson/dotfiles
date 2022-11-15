@@ -33,6 +33,7 @@ source ~/.config/nvim/plugins/airblade-vim-gitgutter.vim
 source ~/.config/nvim/plugins/ap-vim-css-color.vim
 source ~/.config/nvim/plugins/chr4-nginx.vim
 source ~/.config/nvim/plugins/dag-vim-fish.vim
+source ~/.config/nvim/plugins/glench-vim-jinja2-syntax.vim
 source ~/.config/nvim/plugins/hashivim-vim-terraform.vim
 source ~/.config/nvim/plugins/itchyny-lightline.vim
 source ~/.config/nvim/plugins/neoclide-coc.vim
