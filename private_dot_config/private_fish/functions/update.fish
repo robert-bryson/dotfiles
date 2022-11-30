@@ -14,6 +14,7 @@ function update --description 'Updates, used before upgrade'
     brew outdated
     brew upgrade
     brew upgrade --greedy
+    brew cleanup
 
     echo 'updating tldr cache..'
     tldr --update
