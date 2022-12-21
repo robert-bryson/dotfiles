@@ -20,10 +20,10 @@ function update --description 'Updates, used before upgrade'
     tldr --update
 
     echo 'updating neovim plug..'
-    nvim -es -u init.vim -i NONE -c "PlugUpgrade" -c "qa"
+    nvim -u ~/.config/nvim/init.vim '+PlugUpgrade' '+qa!' > /dev/null 2>&1
     echo 'updating neovim plugins..'
-    nvim -es -u init.vim -i NONE -c "PlugInstall" -c "qa"
-    nvim -es -u init.vim -i NONE -c "PlugUpdate" -c "qa"
+    nvim -u ~/.config/nvim/init.vim '+PlugInstall' '+qa!' > /dev/null 2>&1
+    nvim -u ~/.config/nvim/init.vim '+PlugUpgrade' '+qa!' > /dev/null 2>&1
 
     echo 'updating coc.vim..'
     # from https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#update-extensions
