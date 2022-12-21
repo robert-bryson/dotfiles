@@ -19,11 +19,6 @@ function update --description 'Updates, used before upgrade'
     echo 'updating tldr cache..'
     tldr --update
 
-    echo 'updating vim plug..'
-    vim -es -u vimrc -i NONE -c "PlugUpgrade" -c "qa"
-    echo 'updating vim plugins'
-    vim -es -u vimrc -i NONE -c "PlugInstall" -c "qa"
-    vim -es -u vimrc -i NONE -c "PlugUpdate" -c "qa"
     echo 'updating neovim plug..'
     nvim -es -u init.vim -i NONE -c "PlugUpgrade" -c "qa"
     echo 'updating neovim plugins..'
@@ -32,7 +27,7 @@ function update --description 'Updates, used before upgrade'
 
     echo 'updating coc.vim..'
     # from https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#update-extensions
-    vim -c 'CocUpdateSync|q'
+    nvim -c 'CocUpdateSync|q'
 
     #TODO - docker image/container clean up
 
@@ -52,7 +47,8 @@ function update --description 'Updates, used before upgrade'
             sudo apt autoremove --yes
         case Darwin
             echo 'Updating macos things..'
-            # TODO
+            # TODO: xcode update?
+            # xcode-select --install
             echo 'Looks like you havent done anything here?'
         case '*'
             echo 'Which os are you?'
