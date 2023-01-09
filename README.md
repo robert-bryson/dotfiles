@@ -1,11 +1,13 @@
 # dotfiles
 
-My dotfiles, managed by [chezmoi](https://github.com/twpayne/chezmoi). Note that
-they are my own dot files, so there maybe certain things with my user/id. 
+My dotfiles, managed by [chezmoi](https://github.com/twpayne/chezmoi).
+
+Note that they are my own dot files, so there maybe certain things with my user
+/id and may need to be changed/removed to be generally useful.
 
 ## init
 
-To set up on a new machine ([docs](https://www.chezmoi.io/user-guide/setup/)): 
+To set up on a new machine ([docs](https://www.chezmoi.io/user-guide/setup/)):
 
 ```bash
 chezmoi init https://github.com/robert-bryson/dotfiles.git
