@@ -13,7 +13,6 @@ function update --description 'Updates, used before upgrade'
     brew update
     brew outdated
     brew upgrade
-    brew upgrade --greedy
     brew cleanup
 
     echo 'updating tldr cache..'
